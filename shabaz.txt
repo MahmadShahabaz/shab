@@ -1,3 +1,124 @@
-shabaz 
+
+Admin@DESKTOP-3HG5PK3 MINGW64 ~ (master)
+$ mkdir shabaz
+
+Admin@DESKTOP-3HG5PK3 MINGW64 ~ (master)
+$ cd shabaz
+
+Admin@DESKTOP-3HG5PK3 MINGW64 ~/shabaz (master)
+$ cat> shabaz.txt
+shabaz
 abbas
 hemanth
+
+[1]+  Stopped                 cat > shabaz.txt
+
+Admin@DESKTOP-3HG5PK3 MINGW64 ~/shabaz (master)
+$ git init
+Initialized empty Git repository in C:/Users/Admin/shabaz/.git/
+
+Admin@DESKTOP-3HG5PK3 MINGW64 ~/shabaz (master)
+$ git add .
+
+Admin@DESKTOP-3HG5PK3 MINGW64 ~/shabaz (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   shabaz.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   shabaz.txt
+
+
+Admin@DESKTOP-3HG5PK3 MINGW64 ~/shabaz (master)
+$ git add shabaz.txt
+warning: in the working copy of 'shabaz.txt', LF will be replaced by CRLF the next time Git touches it
+
+Admin@DESKTOP-3HG5PK3 MINGW64 ~/shabaz (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   shabaz.txt
+
+
+Admin@DESKTOP-3HG5PK3 MINGW64 ~/shabaz (master)
+$ git commit -m "firt"
+[master (root-commit) 5d5da2d] firt
+ 1 file changed, 3 insertions(+)
+ create mode 100644 shabaz.txt
+
+Admin@DESKTOP-3HG5PK3 MINGW64 ~/shabaz (master)
+$ git branch -M master
+
+Admin@DESKTOP-3HG5PK3 MINGW64 ~/shabaz (master)
+$ git remote add origin https://github.com/MahmadShahabaz/shab.git
+
+Admin@DESKTOP-3HG5PK3 MINGW64 ~/shabaz (master)
+$ git push -u origin master
+remote: Permission to MahmadShahabaz/shab.git denied to pavanpunithpurshi.
+fatal: unable to access 'https://github.com/MahmadShahabaz/shab.git/': The requested URL returned error: 403
+
+Admin@DESKTOP-3HG5PK3 MINGW64 ~/shabaz (master)
+$ git config --global user.name "MahmadShahabaz"
+
+Admin@DESKTOP-3HG5PK3 MINGW64 ~/shabaz (master)
+$ git config --global user.email "mahmadshahabaz@gmail.com"
+
+Admin@DESKTOP-3HG5PK3 MINGW64 ~/shabaz (master)
+$ git commit -m "firt"
+On branch master
+nothing to commit, working tree clean
+
+Admin@DESKTOP-3HG5PK3 MINGW64 ~/shabaz (master)
+$ git branch -M master
+
+Admin@DESKTOP-3HG5PK3 MINGW64 ~/shabaz (master)
+$ git remote add origin https://github.com/MahmadShahabaz/shab.git
+error: remote origin already exists.
+
+Admin@DESKTOP-3HG5PK3 MINGW64 ~/shabaz (master)
+$ git push -u origin master
+remote: Permission to MahmadShahabaz/shab.git denied to pavanpunithpurshi.
+fatal: unable to access 'https://github.com/MahmadShahabaz/shab.git/': The requested URL returned error: 403
+
+Admin@DESKTOP-3HG5PK3 MINGW64 ~/shabaz (master)
+$ git config --global user.name "MahmadShahabaz"
+
+Admin@DESKTOP-3HG5PK3 MINGW64 ~/shabaz (master)
+$ git config --global user.email "mahmadshahabaz@gmail.com"
+
+Admin@DESKTOP-3HG5PK3 MINGW64 ~/shabaz (master)
+$ git commit -m "firt"
+On branch master
+nothing to commit, working tree clean
+
+Admin@DESKTOP-3HG5PK3 MINGW64 ~/shabaz (master)
+$ git branch -M master
+
+Admin@DESKTOP-3HG5PK3 MINGW64 ~/shabaz (master)
+$ git remote add origin https://github.com/MahmadShahabaz/shab.git
+error: remote origin already exists.
+
+Admin@DESKTOP-3HG5PK3 MINGW64 ~/shabaz (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 227 bytes | 227.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/MahmadShahabaz/shab.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+Admin@DESKTOP-3HG5PK3 MINGW64 ~/shabaz (master)
+$
+
